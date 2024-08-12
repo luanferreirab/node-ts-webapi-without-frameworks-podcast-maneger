@@ -1,7 +1,3 @@
-Baseado no trecho de código que você forneceu, vou adicionar mais detalhes ao README, especialmente sobre a implementação técnica do projeto.
-
----
-
 # Podcast Flow
 
 ## Descrição
@@ -103,11 +99,3 @@ Contribuições são bem-vindas! Por favor, siga as etapas abaixo para contribui
 ## Licença
 
 Este projeto está sob a licença [MIT](LICENSE).
-
-## Contato
-
-Para feedback ou suporte, entre em contato com [seuemail@exemplo.com](mailto:seuemail@exemplo.com).
-
----
-
-Sinta-se à vontade para ajustar qualquer seção ou adicionar informações específicas do seu projeto.
