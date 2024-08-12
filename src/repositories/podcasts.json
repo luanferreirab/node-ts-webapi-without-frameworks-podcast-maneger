@@ -1,0 +1,26 @@
+[
+    {
+        "podcastName": "flow",
+        "episode": "CBUM - Flow #319",
+        "videoId": "sachJnl9ofs&pp=ygUHcG9kY2FzdA%3D%3D",
+        "category": ["saúde", "esporte" , "fitness"]
+    },
+    {
+        "podcastName": "flow",
+        "episode": "Rubens Barrichelo - Flow #339",
+        "videoId": "sachJnl9ofs&pp=ygUHcG9kY2FzdA%3D%3D",
+        "category": ["esporte" , "corrida"]
+    },
+    {
+        "podcastName": "flow",
+        "episode": "Luan - Flow #359",
+        "videoId": "00000000000000",
+        "category": ["esporte" , "futebol"]
+    },
+    {
+        "podcastName": "esporte",
+        "episode": "Luan - Flow #359",
+        "videoId": "00000000000000",
+        "category": ["esporte" , "futebol"]
+    }
+]
