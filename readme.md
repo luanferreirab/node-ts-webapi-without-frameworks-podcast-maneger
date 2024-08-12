@@ -38,31 +38,32 @@ O projeto utiliza o módulo `http` do Node.js para lidar com requisições e res
   ]
   ```
 
-### Filtrar Episódios por Nome de Podcast
+Claro, aqui estão as tecnologias utilizadas com hiperlinks em Markdown para suas respectivas documentações:
+
+---
+
+## Tecnologias Utilizadas
+
+Este projeto utiliza as seguintes tecnologias:
+
+- **[Node.js](https://nodejs.org/)**: Ambiente de execução para JavaScript que permite executar código fora de um navegador.
+- **[TypeScript](https://www.typescriptlang.org/)**: Uma linguagem de programação desenvolvida e mantida pela Microsoft que adiciona tipagem estática opcional ao JavaScript.
+- **[TSX](https://github.com/esbuild-kit/tsx)**: Uma ferramenta para executar scripts TypeScript sem precisar de um build step.
+- **[Tsup](https://github.com/egoist/tsup)**: Um empacotador zero-configuração que ajuda a compilar TypeScript e JavaScript para vários formatos, otimizando o processo de distribuição.
+
+### Dependências de Desenvolvimento
+
+- **[@types/node](https://www.npmjs.com/package/@types/node)**: Tipos TypeScript para Node.js, fornecendo definições de tipo para o ambiente Node.
+- **[typescript](https://www.npmjs.com/package/typescript)**: Utilizado para compilar e verificar tipos de código TypeScript.
+
+Estas tecnologias foram escolhidas para fornecer uma base sólida para o desenvolvimento, teste e implantação da aplicação de podcast.
+
+---
+
+Sinta-se à vontade para ajustar as descrições ou adicionar mais informações conforme necessário para melhor refletir o seu projeto.
 
 - **GET**: Retorna uma lista de episódios baseado em um parâmetro enviado pelo cliente com o nome do podcast.
 
-### Estrutura de Código
-
-O código principal é gerenciado pelo seguinte módulo:
-
-```javascript
-import * as http from "http";
-import { getFilterEpisodes, getListEpisodes } from "./controllers/podscasts-controller";
-import { Routes } from "./routes/routes";
-import { HttpMethod } from "./utils/http-methods";
-
-export const app = async (request: http.IncomingMessage, response: http.ServerResponse) => {
-    const baseUrl = request.url?.split("?")[0];
-
-    if(request.method === HttpMethod.GET && baseUrl === Routes.LIST) {
-        await getListEpisodes(request, response);
-    } 
-    if (request.method === HttpMethod.GET && baseUrl === Routes.EPISODE) {
-        await getFilterEpisodes(request, response);
-    }
-}
-```
 
 ## Instalação
 
